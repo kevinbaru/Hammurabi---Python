@@ -176,7 +176,7 @@ def Hammurabi():
        
         bushels_in_storage-=cost_per_acre*land_bought
         
-        #Asks the user to buy land if it is none is bought
+        #Asks the user to sell land if it is none is bought
         if land_bought==0:
             land_sold=ask_to_sell_land(acres_owned)
             acres_owned= acres_owned-land_sold
